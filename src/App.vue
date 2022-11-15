@@ -112,7 +112,7 @@
   //搜索
   const handleQueryName = (val) => {
     if(val.length > 0) {
-      tableData = tableData.filter(item => (item.name).toLowerCase().match(val.toLowerCase())
+      tableData = tableData.filter(item => (item.name).toLowerCase().match(val.toLowerCase()))
     }else{
       tableData = tableDataCopy;
     }
